@@ -1,0 +1,20 @@
+# JCP Lawn Service — .vercelignore
+# Keep only what needs to be deployed
+
+# Exclude dev / server scripts from upload (Vercel uses outputDirectory=dist)
+preview.cjs
+package-lock.json
+
+# Exclude doc files
+README.md
+DESIGN.md
+
+# Exclude editor/OS cruft
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# node_modules (should never be committed anyway)
+node_modules/

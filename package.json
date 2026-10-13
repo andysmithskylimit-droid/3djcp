@@ -1,0 +1,14 @@
+{
+  "name": "jcp-lawn-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "JCP Lawn Service — immersive 3D website",
+  "scripts": {
+    "start": "node preview.cjs",
+    "build": "echo 'Static site — no build step required'",
+    "preview": "node preview.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
